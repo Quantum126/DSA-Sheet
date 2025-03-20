@@ -17,10 +17,11 @@ int main()
     }
     
    
-    // This loop will run and find the negative no and negative no's index no 
+  
 
     for(int k=0;k<size;k++)
     {
+          // This loop will run and find the negative no and negative no's index no 
         for(int i=0;i<size;i++)
         {
            // printf("%d ",arr[i]);
@@ -30,11 +31,11 @@ int main()
             store_value =arr[i];
           
             break;
-            }
-            
         }
+            
+    }
      // printf("index value %d\n",index_no);
-
+  // This loop will shift the digit to right side
       if (index_no != count)
       {
     
@@ -44,11 +45,11 @@ int main()
                 arr[j]=arr[j+1];
             }
                 
-        arr[size-1]=store_value;
+       arr[size-1]=store_value;
        
       }
      
-    }
+}
     //printf("new one");
 
 
